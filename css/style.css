@@ -1,0 +1,233 @@
+.row{
+  margin-bottom: 20px;
+}
+.bg_green{background-color: green;}
+.bg_blue{background-color: dodgerblue;}
+.wrapper{
+    width: 100%;
+    height: 300px;
+    background-color: blueviolet;
+}
+.demo{
+    width: 100%;
+    height: 200px;
+    background-color: green;
+    margin-bottom: 10px;
+}
+p{
+    color: white;
+}
+/* demo1 */
+#draggable{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+/* demo2 */
+.three_div{
+    height: 200px;
+}
+#draggable1, #draggable2, #draggable3{
+     width: 70px; 
+     height: 70px; 
+     padding: 0.5em; 
+     float: left; 
+     margin: 0 10px 10px 0
+}
+/* demo3 */
+ul{
+    list-style-type: none; margin: 0; padding: 0; margin-bottom: 10 px;
+}
+li{
+    margin: 5px; padding: 5px; width: 150px;
+}
+/* demo4 */
+
+#draggable-4 { 
+    background-color: yellow;
+    width: 60px; 
+    height: 60px; 
+    padding: 0.5em; 
+    float: left; 
+    margin: 10px 10px 10px 0;
+}
+  #droppable-4 { width: 100px; 
+    height: 100px; 
+    padding: 0.5em; 
+    float: left; margin: 10px; 
+}
+
+/* demo5 */
+
+#gallery { float: left; width: 65%; min-height: 12em; }
+.gallery.custom-state-active { background: #eee; }
+.gallery li { float: left; width: 96px; padding: 0.4em; margin: 0 0.4em 0.4em 0; text-align: center; }
+.gallery li h5 { margin: 0 0 0.4em; cursor: move; }
+.gallery li a { float: right; }
+.gallery li a.ui-icon-zoomin { float: left; }
+.gallery li img { width: 100%; cursor: move; }
+#trash { float: right; width: 32%; min-height: 18em; padding: 1%; }
+  #trash h4 { line-height: 16px; margin: 0 0 0.4em; }
+  #trash h4 .ui-icon { float: left; }
+  #trash .gallery h5 { display: none; }
+
+  /* demo6 */
+  #resizable{
+    width: 150px;
+    height: 100px;
+    padding: 0.5em;
+  }
+  #resizable h3{
+    text-align: center;
+    margin: 0;
+  }
+
+  /* demo 7 */
+  .demo7_container{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 200px;
+  }
+  #resizable-1{
+    width: 100px;
+    height: 70px;
+    padding: 0.5em;
+  }
+  #resizable-1 h5{
+    text-align: center;
+    margin: 0;
+  }
+  /* demo 8 */
+  #container{
+    width: 300px;
+    height: 300px;
+  }
+  #container h6{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  #resizable_2{
+    background-position: top left;
+    width: 100px;
+    height: 100px;
+  }
+  #resizable_2, #container{
+    padding: 0.5em;
+  }
+
+  /* demo 9 */
+  #resizable_3{
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+  }
+  #resizable_3 h6{
+    text-align: center;
+    margin: 0;
+  }
+  /* demo 10 */
+  .bg_other{
+    background-color: grey;
+  }
+  #feedback { 
+    font-size: 16px; 
+}
+  #selectable .ui-selecting { 
+    background: #FECA40; 
+}
+  #selectable .ui-selected { 
+    background: #F39814; 
+    color: white; 
+}
+  #selectable { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 60%; 
+}
+  #selectable li { 
+    margin: 3px; 
+    font-size: 1.4em; 
+}
+
+/* demo 11 */
+#selectable-1 .ui-selecting { 
+  background: #FECA40; 
+}  
+#selectable-1 .ui-selected { 
+  background: #F39814; 
+  color: white; 
+}
+#selectable-1{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 450px;
+}
+#selectable-1 li{
+  margin: 3px;
+  padding: 1px;
+  float: left;
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  font-size: 35px;
+}
+/* demo 11 */
+#feedback{
+  font-size: 22px;
+}
+#selectable-2 .ui-selecting{
+  background: #feca40;
+}
+#selectable-2 .ui-selected{
+  background: #f39814;
+  color: white;
+}
+#selectable-2{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+#selectable-2 li{
+  margin: 3px;
+  padding: 7px;
+  font-size: 20px;
+}
+/* demo 13 */
+.accordion_hight{
+  height: 500px;
+}
+.accordion_hight p{
+  color: black;
+}
+
+/* demo 14 */
+.ac1{
+  height: 200px;
+  background-color: #f39814;
+}
+.ui-autocomplete-category {
+  font-weight: bold;
+  padding: .2em .4em;
+  margin: .8em 0 .2em;
+  line-height: 1.5;
+}
+ /* demo 15 */
+ .custom-combobox {
+  position: relative;
+  display: inline-block;
+}
+.custom-combobox-toggle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-left: -1px;
+  padding: 0;
+}
+.custom-combobox-input {
+  margin: 0;
+  padding: 5px 10px;
+}

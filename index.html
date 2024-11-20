@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery ui</title>
+
+   
+    <!-- icon 7 strokes link -->
+     <link rel="stylesheet" href="assets/icon-7-strokes/css/pe-icon-7-stroke.css">
+    <!-- fontaesome link -->
+     <link rel="stylesheet" href="assets/fontawesome-icon/css/all.min.css">
+
+    <!-- css links -->
+    <link rel="stylesheet" href="assets/jquery-ui/jquery-ui.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="ac2">
+                    <div class="ui-widget">
+                        <label>Your preferred programming language: </label>
+                        <select id="combobox">
+                          <option value="">Select one...</option>
+                          <option value="ActionScript">ActionScript</option>
+                          <option value="AppleScript">AppleScript</option>
+                          <option value="Asp">Asp</option>
+                          <option value="BASIC">BASIC</option>
+                          <option value="C">C</option>
+                          <option value="C++">C++</option>
+                          <option value="Clojure">Clojure</option>
+                          <option value="COBOL">COBOL</option>
+                          <option value="ColdFusion">ColdFusion</option>
+                          <option value="Erlang">Erlang</option>
+                          <option value="Fortran">Fortran</option>
+                          <option value="Groovy">Groovy</option>
+                          <option value="Haskell">Haskell</option>
+                          <option value="Java">Java</option>
+                          <option value="JavaScript">JavaScript</option>
+                          <option value="Lisp">Lisp</option>
+                          <option value="Perl">Perl</option>
+                          <option value="PHP">PHP</option>
+                          <option value="Python">Python</option>
+                          <option value="Ruby">Ruby</option>
+                          <option value="Scala">Scala</option>
+                          <option value="Scheme">Scheme</option>
+                        </select>
+                      </div>
+                      <button id="toggle">Show underlying select</button>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="ac1">
+                    <label for="search">Search: </label>
+                    <input id="search">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="autocom">
+                    <div class="ui-widget">
+                        <label for="tags">Tags: </label>
+                        <input id="tags">
+                      </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="accordion_hight">
+                    <div id="accordion">
+                        <h3>Section 1</h3>
+                        <div>
+                          <p>
+                          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                          </p>
+                        </div>
+                        <h3>Section 2</h3>
+                        <div>
+                          <p>
+                          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                          suscipit faucibus urna.
+                          </p>
+                        </div>
+                        <h3>Section 3</h3>
+                        <div>
+                          <p>
+                          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                          </p>
+                          <ul>
+                            <li>List item one</li>
+                            <li>List item two</li>
+                            <li>List item three</li>
+                          </ul>
+                        </div>
+                        <h3>Section 4</h3>
+                        <div>
+                          <p>
+                          Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                          et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                          faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                          mauris vel est.
+                          </p>
+                          <p>
+                          Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                          inceptos himenaeos.
+                          </p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="wrapper">
+
+                    <p id="feedback">
+                        <span>You've selected:</span> <span id="select-result">none</span>.
+                    </p>
+
+                    <ol id="selectable-2">
+                        <li class="ui-widget-content">Item 1</li>
+                        <li class="ui-widget-content">Item 2</li>
+                        <li class="ui-widget-content">Item 3</li>
+                        <li class="ui-widget-content">Item 4</li>
+                      </ol>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <ol id="selectable-1">
+                    <li class="ui-state-default">1</li>
+                    <li class="ui-state-default">2</li>
+                    <li class="ui-state-default">3</li>
+                    <li class="ui-state-default">4</li>
+                    <li class="ui-state-default">5</li>
+                    <li class="ui-state-default">6</li>
+                    <li class="ui-state-default">7</li>
+                    <li class="ui-state-default">8</li>
+                    <li class="ui-state-default">9</li>
+                    <li class="ui-state-default">10</li>
+                    <li class="ui-state-default">11</li>
+                    <li class="ui-state-default">12</li>
+                  </ol>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="wrapper bg_other">
+                    <ol id="selectable">
+                        <li class="ui-widget-content">Item 1</li>
+                        <li class="ui-widget-content">Item 2</li>
+                        <li class="ui-widget-content">Item 3</li>
+                        <li class="ui-widget-content">Item 4</li>
+                        <li class="ui-widget-content">Item 5</li>
+                      </ol>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <!-- demo 9 -->
+                <div class="wrapper">
+                    <div id="resizable_3" class="ui-widget-content bg_green">
+                        <h6 class="ui-widget-header">Helper</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <!-- demo 8 -->
+                <div class="wrapper">
+                    <div id="container" class="ui-widget-content">
+                        <h6 class="ui-widget-header">Containment</h6>
+                        <div id="resizable_2" class="ui-state-active">
+                          <h6 class="ui-widget-header">Resizable</h6>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <!-- demo 7 -->
+            <div class="col-lg-6">
+                <div class="demo7_container">
+                    <div id="resizable-1" class="ui-widget-content">
+                        <h5 class="ui-widget-header">Animate</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 2nd row -->
+        <div class="row">
+            <div class="col-lg-3">
+                <!-- demo 6 -->
+                <div id="resizable" class="ui-widget-content">
+                    <h3 class="ui-widget-header">Resizable</h3>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <!-- demo 5 -->
+                <div class="ui-widget ui-helper-clearfix">
+                    <ul id="gallery" class="gallery ui-helper-reset ui-helper-clearfix">
+                        <li class="ui-widget-content ui-corner-tr">
+                            <h6 class="ui-widget-header">high tatras</h6>
+                            <img src="images/high_tatras2_min.jpg" alt="The peaks of High Tatras" width="96" height="72">
+                            <a href="images/high_tatras.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                            <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+                        </li>
+                        <li class="ui-widget-content ui-corner-tr">
+                            <h6 class="ui-widget-header">high tatras</h6>
+                            <img src="images/high_tatras3_min.jpg" alt="" width="96" height="72">
+                            <a href="images/high_tatras2.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                            <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+                        </li>
+                        <li class="ui-widget-content ui-corner-tr">
+                            <h6 class="ui-widget-header">high tatras</h6>
+                            <img src="images/high_tatras4_min.jpg" alt="" width="96" height="72">
+                            <a href="images/high_tatras3.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                            <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+                        </li>
+                        <li class="ui-widget-content ui-corner-tr">
+                            <h6 class="ui-widget-header">high tatras</h6>
+                            <img src="images/high_tatras_min.jpg" alt="" width="96" height="72">
+                            <a href="images/high_tatras4.jpg" title="View larger image" class="ui-icon ui-icon-zoomin">View larger</a>
+                            <a href="link/to/trash/script/when/we/have/js/off" title="Delete this image" class="ui-icon ui-icon-trash">Delete image</a>
+                        </li>
+                    </ul>
+                    <div id="trash" class="ui-widget-content ui-state-default">
+                        <h4 class="ui-widget-header"><span class="ui-icon ui-icon-trash">Trash</span> Trash</h4>
+                      </div>
+                       
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <!-- demo 4 -->
+                <div class="demo">
+
+                    <div id="draggable-4" class="ui-widget-content">
+                        <p class="text-black">Drag me</p>
+                    </div>
+
+                    <div id="droppable-4" class="ui-widget-header">
+                        <p class="text-black">Drop here</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- 1st row -->
+        <div class="row">
+            <div class="col-lg-4">
+                <!-- demo 3 -->
+                <div class="demo">
+                    <ul>
+                        <li id="draggable-demo3" class="ui-state-highlight">Drag me</li>
+                    </ul>
+                    <ul id="sortable">
+                        <li class="ui-state-default">Item1</li>
+                        <li class="ui-state-default">Item2</li>
+                        <li class="ui-state-default">Item3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <!-- demo 2 -->
+                <div class="demo three_div">
+                    <div id="draggable1" class="ui-widget-content">
+                        <p class="text-black">scroll-1</p>
+                    </div>
+                    <div id="draggable2" class="ui-widget-content">
+                        <p class="text-black">scroll-2</p>
+                    </div>
+                    <div id="draggable3" class="ui-widget-content">
+                        <p class="text-black">scroll-3</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <!-- demo 1 -->
+                <div class="demo">
+                    <div id="draggable" class="ui-widget-content">
+                        <p>Drag</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+
+
+
+
+    
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="assets/jquery-ui/jquery-ui.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
